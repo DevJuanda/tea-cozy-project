@@ -1,0 +1,185 @@
+* {
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: seashell;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 69px;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    z-index: 999;
+}
+
+header figure {
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+img[src*='logo']{
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+header a{
+    font-size: 22px;
+    text-decoration: underline;
+    padding: 0 10px;
+}
+
+/* main styles begin here*/
+
+body {
+    position: relative;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+.s1 {
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 700px;
+    background-image: url(./media/img-mission-background.jpg);
+    background-size: cover; /* or contain, depending on your needs */
+    background-position: center center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    opacity: 1;
+}
+
+.mainTitles {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.mainTitles h4{
+    margin-top: 15px;
+}
+
+.s2 .mainTitles {
+    margin-top: 70px;
+}
+
+.s2 {
+    width: 70%;
+}
+
+.s2-flex-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.teaTypes{
+    margin: 5px;
+    text-align: center;
+}
+
+.teaTypes figcaption {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.teaTypes img{
+    height: 200px;
+    width: 300px;
+}
+
+.s3 {
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    min-height: 500px;
+    background-image: url(./media/img-locations-background.jpg);
+    background-size: cover; /* or contain, depending on your needs */
+    background-position: top center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+#s3-title {
+    background-color: transparent;
+    padding: 20px;
+}
+
+.s3-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: transparent;
+}
+
+.flexbox {
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+}
+
+.flexbox h3 {
+    font-weight: bold;
+    padding: 15px;
+}
+
+.flexbox h4 {
+    margin: 40px
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.contact h1 {
+    padding: 20px;
+}
+
+.contact h5 {
+    margin: 10px;
+}
+
+.Copyright {
+    display: inline;
+    position: absolute;
+    text-align: left;
+    align-items: flex-start;
+    left: 0px;
+    bottom: 0px;
+}
